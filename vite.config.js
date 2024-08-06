@@ -10,6 +10,7 @@ export default defineConfig({
     remix({
       buildDirectory: '.build',
       ignoredRouteFiles: ["**/.*"],
+      ssr: false
     })],
   css: {
     modules: {

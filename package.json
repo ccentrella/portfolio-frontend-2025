@@ -6,8 +6,7 @@
   "packageManager": "yarn@4.4.0",
   "scripts": {
     "dev": "node ./server.js",
-    "build": "remix vite:build",
-    "start": "cross-env NODE_ENV=production node ./server.js"
+    "build": "remix vite:build"
   },
   "dependencies": {
     "@remix-run/express": "^2.11.1",
