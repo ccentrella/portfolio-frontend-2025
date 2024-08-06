@@ -11,3 +11,13 @@
 
 #!.yarn/cache
 .pnp.*
+/.cache
+
+/.build
+/public/build
+.env
+
+/.idea
+/.vscode
+
+**/.DS_STORE

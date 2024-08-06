@@ -1,4 +1,26 @@
 {
   "name": "portfolio-frontend-2025",
-  "packageManager": "yarn@4.4.0"
+  "description": "2025 Portfolio",
+  "author": "Chris Centrella",
+  "type": "module",
+  "packageManager": "yarn@4.4.0",
+  "scripts": {
+    "dev": "node ./server.js",
+    "build": "remix vite:build",
+    "start": "cross-env NODE_ENV=production node ./server.js"
+  },
+  "dependencies": {
+    "@remix-run/express": "^2.11.1",
+    "@remix-run/node": "^2.11.1",
+    "@remix-run/react": "^2.11.1",
+    "cross-env": "^7.0.3",
+    "express": "^4.19.2",
+    "isbot": "4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.11.1",
+    "vite": "^5.3.5"
+  }
 }
