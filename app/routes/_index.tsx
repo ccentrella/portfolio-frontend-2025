@@ -1,12 +1,12 @@
 import React from 'react';
+import Hero from '~/components/Hero/Hero';
 
 function Index(props) {
-  return (
-    <div>
-      <h1>Welcome!</h1>
-      <p>Chris Centrella&lsquo;s Portfolio 2025</p>
-    </div>
-  );
+    return (
+        <>
+            <Hero />
+        </>
+    );
 }
 
 export default Index;

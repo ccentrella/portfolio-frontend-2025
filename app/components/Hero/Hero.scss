@@ -1,0 +1,45 @@
+.container {
+    min-height: 100vh;
+    background-color: #037d97;
+    display: grid;
+    grid-template-columns: 3.8fr 6.2fr;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3.5rem; /* 14 * 0.25rem */
+}
+
+.left-panel img {
+    width: 50%;
+    border-radius: 1rem; /* rounded-2xl */
+}
+
+.left-panel p {
+    color: #e0f2f1; /* text-cyan-200 */
+}
+
+.left-panel .name {
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: 500; /* font-medium */
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem; /* 24 * 0.25rem */
+}
+
+.right-panel .bg-box {
+    min-height: 65vh;
+    background-color: #b2dfdb; /* bg-cyan-300 */
+    border-radius: 1rem; /* rounded-2xl */
+}
+
+.section-heading {
+    font-size: 2.25rem; /* text-4xl */
+    padding: 1.5rem 3rem; /* px-12 py-24 */
+}
