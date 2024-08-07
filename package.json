@@ -1,34 +1,35 @@
 {
-  "name": "portfolio-frontend-2025",
-  "description": "2025 Portfolio",
-  "author": "Chris Centrella",
-  "type": "module",
-  "packageManager": "yarn@4.4.0",
-  "scripts": {
-    "dev": "node ./server.js",
-    "build": "remix vite:build",
-    "lint": "eslint app/",
-    "format": "yarn prettier . --write --cache-location .cache/prettier"
-  },
-  "dependencies": {
-    "@remix-run/express": "^2.11.1",
-    "@remix-run/node": "^2.11.1",
-    "@remix-run/react": "^2.11.1",
-    "cross-env": "^7.0.3",
-    "express": "^4.19.2",
-    "isbot": "4",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "typescript": "^5.5.4"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.8.0",
-    "@remix-run/dev": "^2.11.1",
-    "eslint": "9.x",
-    "eslint-plugin-react": "^7.35.0",
-    "globals": "^15.9.0",
-    "prettier": "3.3.3",
-    "typescript-eslint": "^8.0.1",
-    "vite": "^5.3.5"
-  }
+    "name": "portfolio-frontend-2025",
+    "description": "2025 Portfolio",
+    "author": "Chris Centrella",
+    "type": "module",
+    "packageManager": "yarn@4.4.0",
+    "scripts": {
+        "dev": "remix vite:dev",
+        "build": "remix vite:build",
+        "lint": "eslint app/",
+        "format": "yarn prettier . --write --cache-location .cache/prettier"
+    },
+    "dependencies": {
+        "@remix-run/node": "^2.11.1",
+        "@remix-run/react": "^2.11.1",
+        "@remix-run/serve": "^2.11.1",
+        "isbot": "4",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "sass": "^1.77.8",
+        "typescript": "^5.5.4",
+        "vite-tsconfig-paths": "^4.3.2"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.8.0",
+        "@remix-run/dev": "^2.11.1",
+        "@types/react": "^18.3.3",
+        "eslint": "9.x",
+        "eslint-plugin-react": "^7.35.0",
+        "globals": "^15.9.0",
+        "prettier": "3.3.3",
+        "typescript-eslint": "^8.0.1",
+        "vite": "^5.3.5"
+    }
 }
