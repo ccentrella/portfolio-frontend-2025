@@ -103,9 +103,11 @@
   }
 }
 
-:global {
-  header nav .active {
-    color: #9ca3af;
+header nav {
+  :global {
+    .active {
+      color: #9ca3af;
+    }
   }
 }
 

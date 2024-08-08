@@ -50,8 +50,10 @@
   color: #9ca3af;
 }
 
-:global {
-  footer nav .active {
-    color: #9ca3af;
+footer nav {
+  :global {
+    .active {
+      color: #9ca3af;
+    }
   }
 }
