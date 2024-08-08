@@ -1,0 +1,36 @@
+.footer {
+  background-color: #04222f;
+  margin-top: 8rem;
+}
+
+.footer-container {
+  padding: 1.75rem;
+  margin: auto;
+
+  @media screen and (min-width: 1000px) {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    max-width: 1024px;
+  }
+}
+
+.links-container {
+  padding: 5rem 0;
+
+  p {
+    margin-top: 1.5rem;
+  }
+}
+
+.copyright-container {
+  text-align: center;
+}
+
+.copyright-text {
+  font-weight: 300;
+  text-align: left;
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #9ca3af;
+}

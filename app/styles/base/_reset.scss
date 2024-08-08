@@ -6,8 +6,20 @@
   box-sizing: border-box;
 }
 
+html {
+  @apply bg-background text-white;
+}
+
 body {
   line-height: 1.6;
+  background-color: #011C26;
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 1.2rem;
+  }
 }
 
 a {
