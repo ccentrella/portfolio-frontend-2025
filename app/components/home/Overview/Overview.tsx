@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './HomeContent.module.scss';
+import styles from './Overview.module.scss';
 
-function HomeContent(props) {
+function Overview(props) {
     return (
         <>
             <div>
@@ -20,4 +20,4 @@ function HomeContent(props) {
     );
 }
 
-export default HomeContent;
+export default Overview;

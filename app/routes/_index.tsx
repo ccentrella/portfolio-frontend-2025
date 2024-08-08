@@ -1,12 +1,12 @@
 import React from 'react';
-import Hero from '~/components/Hero/Hero';
-import HomeContent from 'components/HomeContent/HomeContent';
+import Hero from '~/components/home/Hero/Hero';
+import Overview from 'components/home/Overview/Overview';
 
 function Index(props) {
     return (
         <>
             <Hero />
-            <HomeContent />
+            <Overview />
         </>
     );
 }
