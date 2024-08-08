@@ -23,13 +23,16 @@ body, p {
     border-radius: 1rem; /* rounded-2xl */
 }
 
-.left-panel p {
-    color: #e0f2f1; /* text-cyan-200 */
-}
-
 .left-panel .name {
     font-size: 2.25rem; /* text-4xl */
     font-weight: 500; /* font-medium */
+    color: #fcfcfc;
+    line-height: 2.5rem;
+}
+
+.left-panel .nameIntro {
+  color: rgb(165, 243, 252);
+  font-size: 1.2rem;
 }
 
 .right-panel {
@@ -41,11 +44,6 @@ body, p {
 
 .right-panel .bg-box {
     min-height: 65vh;
-    background-color: #b2dfdb; /* bg-cyan-300 */
+    background-color: #67e8f9; /* bg-cyan-300 */
     border-radius: 1rem; /* rounded-2xl */
-}
-
-.section-heading {
-    font-size: 2.25rem; /* text-4xl */
-    padding: 1.5rem 3rem; /* px-12 py-24 */
 }
