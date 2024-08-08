@@ -1,26 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-body, p {
-  font-family: 'Inter', sans-serif;
-}
 
 .panel-container {
-    min-height: 100vh;
-    background-color: #037d97;
-    display: grid;
-    grid-template-columns: 3.8fr 6.2fr;
+  min-height: 100vh;
+  background-color: #037d97;
+  display: grid;
+  grid-template-columns: 3.8fr 6.2fr;
 }
 
 .left-panel {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3.5rem;
 }
 
 .profile {
-    width: 50%;
-    border-radius: 1rem;
+  width: 50%;
+  border-radius: 1rem;
 }
 
 .nameIntro {
@@ -43,7 +38,7 @@ body, p {
 }
 
 .highlight-container {
-    min-height: 65vh;
-    background-color: #67e8f9;
-    border-radius: 1rem;
+  min-height: 65vh;
+  background-color: #67e8f9;
+  border-radius: 1rem;
 }
