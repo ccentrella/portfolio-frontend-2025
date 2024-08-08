@@ -96,10 +96,10 @@ function Header() {
             </label>
             <input
                 id={'navbar-toggle'}
-                className={'navbar-toggle'}
+                className={styles.navbarToggle}
                 type={'checkbox'}
             />
-            <nav className={'navbar'}>{navItems}</nav>
+            <nav className={styles.navbar}>{navItems}</nav>
         </header>
     );
 }

@@ -49,3 +49,9 @@
   line-height: 1.25rem;
   color: #9ca3af;
 }
+
+:global {
+  footer nav .active {
+    color: #9ca3af;
+  }
+}
