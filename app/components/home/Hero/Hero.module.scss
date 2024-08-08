@@ -15,19 +15,19 @@ body, p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 3.5rem; /* 14 * 0.25rem */
+    padding: 3.5rem;
 }
 
 .left-panel img {
     width: 50%;
-    border-radius: 1rem; /* rounded-2xl */
+    border-radius: 1rem;
 }
 
 .left-panel .name {
-    font-size: 2.25rem; /* text-4xl */
-    font-weight: 500; /* font-medium */
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    font-weight: 500;
     color: #fcfcfc;
-    line-height: 2.5rem;
 }
 
 .left-panel .nameIntro {
@@ -39,11 +39,11 @@ body, p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 6rem; /* 24 * 0.25rem */
+    padding: 6rem;
 }
 
 .right-panel .bg-box {
     min-height: 65vh;
-    background-color: #67e8f9; /* bg-cyan-300 */
-    border-radius: 1rem; /* rounded-2xl */
+    background-color: #67e8f9;
+    border-radius: 1rem;
 }
