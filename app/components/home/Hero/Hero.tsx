@@ -3,18 +3,18 @@ import styles from './Hero.module.scss';
 
 function Hero(props) {
     return (
-        <div className={styles.container}>
+        <div className={styles.panelContainer}>
             <div className={styles.leftPanel}>
-                <div className={styles.profilePic}>
+                <div className={styles.profile}>
                     <img src='public/profile.png' alt='profile picture' />
                 </div>
-                <div className={styles.textContent}>
+                <div>
                     <p className={styles.nameIntro}>&lsquo;Sup? My name is </p>
                     <p className={styles.name}>Chris Centrella.</p>
                 </div>
             </div>
             <div className={styles.rightPanel}>
-                <div className={styles.bgBox}></div>
+                <div className={styles.highlightContainer}></div>
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ body, p {
   font-family: 'Inter', sans-serif;
 }
 
-.container {
+.panel-container {
     min-height: 100vh;
     background-color: #037d97;
     display: grid;
@@ -18,31 +18,31 @@ body, p {
     padding: 3.5rem;
 }
 
-.left-panel img {
+.profile {
     width: 50%;
     border-radius: 1rem;
 }
 
-.left-panel .name {
-    font-size: 2.25rem;
-    line-height: 2.25rem;
-    font-weight: 500;
-    color: #fcfcfc;
-}
-
-.left-panel .nameIntro {
+.nameIntro {
   color: rgb(165, 243, 252);
   font-size: 1.2rem;
 }
 
-.right-panel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 6rem;
+.name {
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  color: #fcfcfc;
 }
 
-.right-panel .bg-box {
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem;
+}
+
+.highlight-container {
     min-height: 65vh;
     background-color: #67e8f9;
     border-radius: 1rem;

@@ -43,7 +43,6 @@
 }
 
 .title {
-
   color: #e0f2f1;
 
   @media screen and (min-width: 764px) {
@@ -69,11 +68,6 @@
     width: 2rem;
     cursor: pointer;
   }
-}
-
-.container {
-  padding: 0.875rem;
-  margin: auto;
 }
 
 .navbar {
@@ -103,7 +97,7 @@
   }
 }
 
-header nav {
+.header .navbar {
   :global {
     .active {
       color: #9ca3af;
