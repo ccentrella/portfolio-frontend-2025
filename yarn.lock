@@ -1184,7 +1184,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/express@npm:2.11.1, @remix-run/express@npm:^2.11.1":
+"@remix-run/express@npm:2.11.1":
   version: 2.11.1
   resolution: "@remix-run/express@npm:2.11.1"
   dependencies:
@@ -2473,19 +2473,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-env@npm:^7.0.3":
-  version: 7.0.3
-  resolution: "cross-env@npm:7.0.3"
-  dependencies:
-    cross-spawn: "npm:^7.0.1"
-  bin:
-    cross-env: src/bin/cross-env.js
-    cross-env-shell: src/bin/cross-env-shell.js
-  checksum: 10c0/f3765c25746c69fcca369655c442c6c886e54ccf3ab8c16847d5ad0e91e2f337d36eedc6599c1227904bf2a228d721e690324446876115bc8e7b32a866735ecf
-  languageName: node
-  linkType: hard
-
-"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.1, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
+"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
   dependencies:
@@ -4824,7 +4812,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
+"loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -6158,20 +6146,17 @@ __metadata:
   dependencies:
     "@eslint/js": "npm:^9.8.0"
     "@remix-run/dev": "npm:^2.11.1"
-    "@remix-run/express": "npm:^2.11.1"
     "@remix-run/node": "npm:^2.11.1"
     "@remix-run/react": "npm:^2.11.1"
     "@remix-run/serve": "npm:^2.11.1"
     "@types/react": "npm:^18.3.3"
-    cross-env: "npm:^7.0.3"
     eslint: "npm:9.x"
     eslint-plugin-react: "npm:^7.35.0"
-    express: "npm:^4.19.2"
     globals: "npm:^15.9.0"
     isbot: "npm:4"
     prettier: "npm:3.3.3"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
+    react: "npm:19.0.0-rc-e948a5ac-20240807"
+    react-dom: "npm:19.0.0-rc-e948a5ac-20240807"
     sass: "npm:^1.77.8"
     typescript: "npm:^5.5.4"
     typescript-eslint: "npm:^8.0.1"
@@ -6477,15 +6462,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^18.3.1":
-  version: 18.3.1
-  resolution: "react-dom@npm:18.3.1"
+"react-dom@npm:19.0.0-rc-e948a5ac-20240807":
+  version: 19.0.0-rc-e948a5ac-20240807
+  resolution: "react-dom@npm:19.0.0-rc-e948a5ac-20240807"
   dependencies:
-    loose-envify: "npm:^1.1.0"
-    scheduler: "npm:^0.23.2"
+    scheduler: "npm:0.25.0-rc-e948a5ac-20240807"
   peerDependencies:
-    react: ^18.3.1
-  checksum: 10c0/a752496c1941f958f2e8ac56239172296fcddce1365ce45222d04a1947e0cc5547df3e8447f855a81d6d39f008d7c32eab43db3712077f09e3f67c4874973e85
+    react: 19.0.0-rc-e948a5ac-20240807
+  checksum: 10c0/d96936c957cc9fc22b2931f96d868510739131b223156db22949faef448974cd3cfa0813ac9ee0b875389e7bceedbc2295629126aabeed3592632a3734f71ab9
   languageName: node
   linkType: hard
 
@@ -6527,12 +6511,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.3.1":
-  version: 18.3.1
-  resolution: "react@npm:18.3.1"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10c0/283e8c5efcf37802c9d1ce767f302dd569dd97a70d9bb8c7be79a789b9902451e0d16334b05d73299b20f048cbc3c7d288bbbde10b701fa194e2089c237dbea3
+"react@npm:19.0.0-rc-e948a5ac-20240807":
+  version: 19.0.0-rc-e948a5ac-20240807
+  resolution: "react@npm:19.0.0-rc-e948a5ac-20240807"
+  checksum: 10c0/7a3efd097cceccbaf11308260d62bc440ed78a1b8789314ee4e5c4dfe8470c80f6cec672fba2da4b539c9431aa836cb6ac7fd92d05d7c8bafd7fa41244cd34cb
   languageName: node
   linkType: hard
 
@@ -6871,12 +6853,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.23.2":
-  version: 0.23.2
-  resolution: "scheduler@npm:0.23.2"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10c0/26383305e249651d4c58e6705d5f8425f153211aef95f15161c151f7b8de885f24751b377e4a0b3dd42cce09aad3f87a61dab7636859c0d89b7daf1a1e2a5c78
+"scheduler@npm:0.25.0-rc-e948a5ac-20240807":
+  version: 0.25.0-rc-e948a5ac-20240807
+  resolution: "scheduler@npm:0.25.0-rc-e948a5ac-20240807"
+  checksum: 10c0/c91c970bfbeeef1fb8884de4fb86bd9f43dafc099ba980a450dfbd285250f101539c6437abc90e146b1abfaa822992e33330f3dd2f70f70c83c490b4c9becbf5
   languageName: node
   linkType: hard
 
